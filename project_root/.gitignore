@@ -1,0 +1,17 @@
+# Archivos de configuración
+/config/db_config.php
+
+# Archivos de sistema
+.DS_Store
+*.log
+
+# Archivos de caché y carpetas de entorno
+/node_modules
+/vendor
+*.env
+*.sqlite
+
+# Archivos temporales o binarios
+*.tmp
+*.bak
+*.swp

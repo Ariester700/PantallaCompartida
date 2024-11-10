@@ -1,4 +1,11 @@
-modules = ["php-8.2"]
+modules = ["php-8.2", "python-3.11"]
+run = "python3 project_root/app.py"
 
 [nix]
 channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "python3 project_root/app.py"]
+
+[[ports]]
+localPort = 5000

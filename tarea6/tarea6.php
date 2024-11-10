@@ -18,4 +18,5 @@ for ($i = 0; $i < count($equipos); $i++) {
 }
 
 echo "</table>";
+echo "<br>";
 ?>

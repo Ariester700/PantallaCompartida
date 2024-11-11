@@ -1,11 +1,16 @@
 modules = ["php-8.2", "python-3.11"]
-run = "python3 project_root/app.py"
+run = "python3 proyectoUNO/main.py"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "python3 project_root/app.py"]
+run = ["sh", "-c", "python3 proyectoUNO/main.py"]
+
+[[ports]]
+localPort = 3000
+externalPort = 3000
 
 [[ports]]
 localPort = 5000
+externalPort = 80
